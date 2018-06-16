@@ -1,0 +1,45 @@
+/*create blog that is centered and adjusts size with the window*/
+/*solid border, choose color*/
+body {
+  border: 20px solid #315404;
+  padding: 20px; /*padding creates the space between border and body text*/
+  margin: 20px auto 20px auto;
+  /*allow body to auto adjust with browser window*/
+  max-width: 700px; /*overall max*/
+  width: 80%; /*make 80% of window when less than max-width*/
+  margin: 20px auto; /*body auto-centered (20px top/bot, auto l/r*/
+
+  font-family: 'Playfair Display', serif;
+}
+
+/*the first paragraph should be blockquoted with padding seperating text*/
+.bquote {
+  border-left: 5px solid #315404;
+  padding-left: 5px; /*separating blockquote from text/element*/
+}
+
+/*date: choose color diff w spacing*/
+.date {
+  color: #8db5c4;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem; /*rem's are set root element...
+  a way to do proportional fonts*/
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.0rem;
+  text-transform: capitalize;
+}
+
+hr {
+   border: 0;
+   height: 0;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*add an styled hr at bottom of each post*/
